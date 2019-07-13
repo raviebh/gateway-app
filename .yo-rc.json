@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "Gateway",
+    "packageName": "com.pep.int",
+    "packageFolder": "com/pep/int",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.2",
+    "jwtSecretKey": "NzAwNWZlNmI4OWMxODc4YzJiYWEwMjgxN2FiNjBlNDFlZDg5ZjVkNDUyNzNlNWM0MDU4ODIyYzgwYTAyOGJlNTFkM2ZmZDA1ZWVhMDI5YzAzNDM0ODM1ZDgyYzAzNmQ0NjEzNDcxNjljYWFhN2E2NDU3YTBiZWEzMTRlOWIxOGI=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "raviebh",
+  "repository-name": "gateway-app"
+}
